@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.440b057a.css",
-    "main.js": "/portfolio/static/js/main.c9072cf2.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/flashcardsScreenshot.png": "/portfolio/static/media/flashcardsScreenshot.879c35e00b2cc45bd530.png",
-    "static/media/crochetTrackerStandIn.jpeg": "/portfolio/static/media/crochetTrackerStandIn.0f45852b888db3ce0a2e.jpeg",
-    "static/media/backgroundStripe.png": "/portfolio/static/media/backgroundStripe.9db592aa7b91ee589810.png",
-    "static/media/guyongazeboregular-k7aba-webfont.woff": "/portfolio/static/media/guyongazeboregular-k7aba-webfont.a46f8960a5384409ad0b.woff",
-    "static/media/guyongazeboregular-k7aba-webfont.woff2": "/portfolio/static/media/guyongazeboregular-k7aba-webfont.f47e947ae6a359f08015.woff2",
-    "static/media/flower1.png": "/portfolio/static/media/flower1.e376a2d59e1e54ee3556.png",
-    "static/media/flower2.png": "/portfolio/static/media/flower2.17f10ea64c6d39707261.png",
-    "index.html": "/portfolio/index.html",
-    "main.440b057a.css.map": "/portfolio/static/css/main.440b057a.css.map",
-    "main.c9072cf2.js.map": "/portfolio/static/js/main.c9072cf2.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.b0e46726.css",
+    "main.js": "/static/js/main.2681f878.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/flashcardsScreenshot.png": "/static/media/flashcardsScreenshot.879c35e00b2cc45bd530.png",
+    "static/media/crochetTrackerStandIn.jpeg": "/static/media/crochetTrackerStandIn.0f45852b888db3ce0a2e.jpeg",
+    "static/media/backgroundStripe.png": "/static/media/backgroundStripe.9db592aa7b91ee589810.png",
+    "static/media/guyongazeboregular-k7aba-webfont.woff": "/static/media/guyongazeboregular-k7aba-webfont.a46f8960a5384409ad0b.woff",
+    "static/media/guyongazeboregular-k7aba-webfont.woff2": "/static/media/guyongazeboregular-k7aba-webfont.f47e947ae6a359f08015.woff2",
+    "static/media/flower1.png": "/static/media/flower1.e376a2d59e1e54ee3556.png",
+    "static/media/flower2.png": "/static/media/flower2.17f10ea64c6d39707261.png",
+    "index.html": "/index.html",
+    "main.b0e46726.css.map": "/static/css/main.b0e46726.css.map",
+    "main.2681f878.js.map": "/static/js/main.2681f878.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.440b057a.css",
-    "static/js/main.c9072cf2.js"
+    "static/css/main.b0e46726.css",
+    "static/js/main.2681f878.js"
   ]
 }
