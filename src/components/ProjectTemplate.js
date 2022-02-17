@@ -59,7 +59,7 @@ function ProjectTemplate(props) {
               <button>frontend</button>
             </a>
             {(project.backendCode!==null)?
-              <div>
+              <div className="backend">
                   <a href={project.backendCode}>
                     <button>backend</button>
                   </a><a href={project.api}>
