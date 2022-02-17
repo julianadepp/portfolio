@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "./Resume";
 
 function Header(props) {
   return (
@@ -15,6 +16,7 @@ function Header(props) {
           <a href="#contact">
             <button className="">Contact Me</button>
           </a>
+          <Resume />
         </nav>
     </div>
   );
