@@ -5,21 +5,24 @@
   font-weight: normal;
   font-style: normal;
 }
+html{
+  font-size: 100px;
+}
 body {
-  margin: 15px 0 0 15px;
+  margin: .15rem 0 0 .15rem;
   font-family: "Quicksand", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #f7dcad;
   background-color: #2e2836;
-  border-top: 120px solid #2e2836;
-  border-left: 120px solid #2e2836;
+  border-top: 1.20rem solid #2e2836;
+  border-left: 1.20rem solid #2e2836;
   border-bottom: 0;
   border-right: 0;
   border-image: url("./media/backgroundStripe.png");
   border-image-slice: 40% 40%;
-  border-image-width: 120px;
+  border-image-width: 1.20rem;
 }
 .App {
   max-width: 1300px;
@@ -30,17 +33,22 @@ code {
     monospace;
 }
 main section {
-  padding-top: 65px;
+  padding-top: .65rem;
 }
 a{
   text-decoration: none;
+  font-size: initial;
 }
 h1 {
+  text-align: center;
   font-size: 72px;
   font-weight: 300;
   font-family: "guyon_gazeboregular", cursive;
   margin: 1em 0.25em 0.25em;
   letter-spacing: 1px;
+}
+h3 {
+  font-size: 18px;
 }
 nav {
   display: flex;
@@ -56,6 +64,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  padding: .1rem 0;
 }
 header div {
   display: flex;
@@ -65,7 +74,7 @@ header div {
 header h1 {
   margin: 0;
   position: static;
-  font-size: 36px;
+  font-size: .36rem;
   transform: none;
   display: inline-block;
   flex-grow: 1;
@@ -74,13 +83,15 @@ header nav {
   transform: none;
   position: static;
   flex-grow: 1;
+  min-width: 380px;
 }
 header h3 {
   position: static;
-  font-size: 18px;
+  font-size: .18rem;
   transform: none;
   display: inline-block;
   flex-grow: 1;
+  margin: 0;
 }
 h2 {
   text-align: center;
@@ -93,40 +104,41 @@ h2 {
   text-align: center;
   background-color: #f7dcad;
   color: #2e2836;
-  margin: 0 24px 12px 0;
-  padding: 0.5em 6px 0.5em 30px;
+  margin: 0 .24rem .12rem 0;
+  padding: 0.5em .06rem 0.5em .30rem;
   border-bottom-right-radius: 0.75em;
   border-top-left-radius: 0.75em;
 
-  box-shadow: 8px 4px #f2b326, 0px 4px #f2b326, 8px 0px #f2b326,
-    16px 4px #e4722c, 16px 0px #e4722c, 24px 4px #df3b32, 24px 0px #df3b32;
+  box-shadow: .08rem .04rem #f2b326, 0rem .04rem #f2b326, .08rem 0rem #f2b326,
+    .16rem .04rem #e4722c, .16rem 0rem #e4722c, .24rem .04rem #df3b32, .24rem 0rem #df3b32;
 }
 
 button {
   font-family: inherit;
-  font-size: 14px;
+  font-size: .14rem;
   color: #f7dcad;
-  padding: 5px 10px;
-  margin: 5px;
+  padding: .05rem .10rem;
+  margin: .05rem;
   border: none;
   border: 2px solid #f7dcad;
   background-color: #2e2836;
-  border-radius: 10px;
+  border-radius: .10rem;
   transition: 300ms;
 }
 .backend {
   display: inline-block;
 }
 p {
+  font-size: 16px;
   margin: 0;
   background-color: #ffffff25;
-  padding: 30px;
-  border-radius: 15px;
-  min-height: 270px;
+  padding: .30rem;
+  border-radius: .15rem;
+  min-height: 2.70rem;
   line-height: 1.5;
 }
 button:hover {
-  box-shadow: 2px 3px #df3b32, 4px 6px #f2b326, 6px 9px #50bab6;
+  box-shadow: .02rem .03rem #df3b32, .04rem .06rem #f2b326, .06rem .09rem #50bab6;
   transition: 300ms;
 }
 .headshot {
@@ -137,7 +149,7 @@ button:hover {
 }
 .nontext{
   float: left;
-  margin: 40px 40px 5px 40px;
+  margin: .40rem .44rem .05rem .44rem;
 }
 .resume>div>a>button{
   display: block;
@@ -174,11 +186,13 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
 }
 .proj-child {
+  font-size: .1rem;
   flex: 0 1 350px;
   min-width: 225px;
-  margin: 30px;
+  margin: .30rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -218,8 +232,8 @@ button:hover {
   padding: 0;
   margin: 0;
   position: absolute;
-  top: 120px;
-  left: 120px;
+  top: 1.20rem;
+  left: 1.20rem;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -466,5 +480,35 @@ button:hover {
   100% {
     transform: translateY(0px) rotate(720deg);
     opacity: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+  html{
+    font-size: 50px;
+  }
+  header div {
+      flex-wrap:wrap;
+  }
+  header nav {
+      min-width:auto;
+
+  }
+  .flowers{
+    width: calc(100vw - 60px);
+  }
+  .nontext{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .nontext img{
+    width: 100%;
+    margin-left: 0;
+  }
+  button {
+      font-size:75%
   }
 }

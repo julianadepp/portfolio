@@ -30,7 +30,7 @@ function AboutMe(props) {
         <br />
         <br />
         Currently, I am seeking employment in front-end, back-end, and
-        full-stack software engineering. I am based in New York City currently,
+        full-stack software engineering. I am based in New York City at the moment,
         but I am open to relocating as well as remote work. Most important to me
         is that the work I do contributes toward something bigger in some
         meaningful way.
