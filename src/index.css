@@ -234,7 +234,7 @@ button:hover {
   position: absolute;
   top: 1.20rem;
   left: 1.20rem;
-  width: 100vw;
+  width: calc(100vw - 135px);
   height: 100vh;
   overflow: hidden;
 }
@@ -483,21 +483,39 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 800px){
+  header div {
+    flex-wrap:wrap;
+}
+header nav {
+    min-width:auto;
+}
+}
+
+@media screen and (max-width: 650px) {
+  .nontext{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: .40rem 1rem .05rem 1rem;
+
+  }
+  .nontext img{
+    width: 100%;
+    margin-left: 0;
+  }
+  button {
+    font-size:75%
+}
+}
 
 
 @media screen and (max-width: 500px) {
   html{
     font-size: 50px;
   }
-  header div {
-      flex-wrap:wrap;
-  }
-  header nav {
-      min-width:auto;
-
-  }
   .flowers{
-    width: calc(100vw - 60px);
+    width: calc(100vw - (135px/2));
   }
   .nontext{
     display: flex;
@@ -507,8 +525,5 @@ button:hover {
   .nontext img{
     width: 100%;
     margin-left: 0;
-  }
-  button {
-      font-size:75%
   }
 }
