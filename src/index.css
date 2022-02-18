@@ -220,7 +220,7 @@ button:hover {
   position: absolute;
   top: 120px;
   left: 120px;
-  width: 80vw;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
@@ -458,7 +458,7 @@ button:hover {
 }
 @keyframes animate {
   0% {
-    transform: translateY(-1000px) rotate(0deg);
+    transform: translateY(-100vh) rotate(0deg);
     opacity: 0.2;
     visibility: visible;
   }
