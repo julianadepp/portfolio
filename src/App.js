@@ -2,9 +2,7 @@ import AboutMe from "./components/AboutMe";
 import Contacts from "./components/Contacts";
 import Projects from "./components/Projects";
 import Header from "./components/Header";
-import flower1 from './media/flower1.png'
-import flower2 from './media/flower2.png'
-
+    
 
 function App() {
   return (
